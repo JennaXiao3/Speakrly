@@ -30,6 +30,11 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
+Install all of the Python modules and packages listed in the requirements.txt file
+```shell
+pip3 install -r requirements.txt
+```
+
 Run the backend server
 ```shell
 python3 server.py
