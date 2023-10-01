@@ -1,4 +1,4 @@
-# 🎤 Speakrly
+# 🗣️Speakrly
 
 Practice and perfect your speech skills with Speakrly, a web app that analyzes the speaker's presentation and gives feedback on the speech's content, eye contact, and gestures using NLP and computer vision.    
 
