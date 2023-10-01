@@ -17,7 +17,7 @@ Practice and perfect your speech skills with Speakrly, a web app that analyzes t
   </tr>
 </table>
 
-Submission to Hack the North 2023
+Submission to Hack the North 2023 - find the devpost [here](https://devpost.com/software/speakrly)
 
 ## 📝 Technologies Used
 
