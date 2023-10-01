@@ -1,29 +1,39 @@
-# speechrly
-Practice and perfect your speech skills 🎤
+# 🎤 Speakrly
+
+Practice and perfect your speech skills with Speakrly, a web app that analyzes the speaker's presentation and gives feedback on the speech's content, eye contact, and gestures using NLP and computer vision.
+**Content:** Write down the main points of your speech on the left and it will tell you which points you missed with Cohere's large language models and Retriv's search engine
+**Eye contact:** Record your speech and receive feedback on how well you scanned the audience with your eyes with OpenCV's eye-tracking
+**Gestures:** See how well you utilized your hands during your speech with OpenCV's real-time hand gesture recognition
 
 Submission to Hack the North 2023
 
-## Inspiration
-As our lives continue, it is apparent that communication and presentation skills are required and valued, starting from a young age at school, to up until after graduation, hopping from interview to interview. Thus, our current reality of the need for certain abilities to succeed inspired us to develop a program that would support and aid people, ranging from students to adults, in the development and refinement of this necessary ability.
+## 📝 Technologies Used
 
-## What it does
-Speakrly is an online app that improves the user's presentation skills. Through the many frameworks and technologies, it is able to analyze the speaker's presentation, in respect of its context, and the user's hand and eye movement. Through the examination, it is able to adequately assess the user based on these three areas and further produce feedback if needed.
+<img src="https://www.bairesdev.com/wp-content/uploads/2021/08/Flask-1.svg" height="100px" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://camo.githubusercontent.com/e84431cfbd9f7c44b1c20da1dde8ad407cbc31174844a428074d1e3b43faab8b/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f72656163742f72656163742d6f726967696e616c2d776f72646d61726b2e737667" height="100px" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" height="100px" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" height="100px" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://res.cloudinary.com/apideck/image/upload/v1667440836/marketplaces/ckhg56iu1mkpc0b66vj7fsj3o/listings/14957082_wyd29r.png" height="100px" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/opencv/opencv/wiki/logo/OpenCV_logo_no_text.png" height="100px" />
 
-## How we built it
-On VSCode, with the help of GitHub, Router, and React, we were able to develop this beneficial program. Through its development, we used Cohere Rerank (in order to identify that all main points of a speech have been addressed) and OpenAI Whisper with Python for the speech recognition aspects and material UI for the front-end visuals.
+## 🍎 Get It Started
 
-## Challenges we ran into
-Throughout this year's Hack the North, we encountered many challenges. Similar to many others, we were looking forward to using the AdHawk glasses. However, due to the low quantity available, we ended up empty-handed. Furthermore, the time span for the Hackathon added further pressure to accomplish something great at the end for the judges to witness.
+Install the dependencies using npm
+```shell
+npm install
+```
 
-Accomplishments that we're proud of
-Although we faced many obstacles, we were still able to mitigate them. Some of the problems we met left us will fewer resources than expected. But through other aspects, we were able to overcome these complications. Such as the situation with the AdHawk glasses. We were still able to continue our eye-tracking aspect using a different application.
+Start the local development server
+```shell
+npm start
+```
 
-## What we learned
-After this experience, we will leave the hackathon with more knowledge than we had when we first entered it. Throughout the hackathon, we were met with many challenges. But with our resilience and perseverance, we were able to adapt and modify ourselves to meet the needs of these aspects of the program. With each complication was a possibility for new knowledge. Thus, through the 36 hours at Hack the North, we were able to learn a lot.
+Create and activate the virtual environment
+```shell
+cd server
+python3 -m venv venv
+source venv/bin/activate
+```
 
-## What's next for Speakrly
-We at Speakrly hope to continue to help the community through any programming aspects. In the future, we hope to expand more into hardware to further help future generations at improving their skills and abilities when they enter the real world.
-
+Run the backend server
+```shell
+python3 server.py
+```
 
 ## Features
 
