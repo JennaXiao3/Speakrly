@@ -1,9 +1,10 @@
 # 🎤 Speakrly
 
-Practice and perfect your speech skills with Speakrly, a web app that analyzes the speaker's presentation and gives feedback on the speech's content, eye contact, and gestures using NLP and computer vision.
-**Content:** Write down the main points of your speech on the left and it will tell you which points you missed with Cohere's large language models and Retriv's search engine
-**Eye contact:** Record your speech and receive feedback on how well you scanned the audience with your eyes with OpenCV's eye-tracking
-**Gestures:** See how well you utilized your hands during your speech with OpenCV's real-time hand gesture recognition
+Practice and perfect your speech skills with Speakrly, a web app that analyzes the speaker's presentation and gives feedback on the speech's content, eye contact, and gestures using NLP and computer vision.    
+
+**Content:** Write down the main points of your speech on the left and it will tell you which points you missed with Cohere's large language models and Retriv's search engine    
+**Eye contact:** Record your speech and receive feedback on how well you scanned the audience with your eyes with OpenCV's eye-tracking    
+**Gestures:** See how well you utilized your hands during your speech with OpenCV's real-time hand gesture recognition    
 
 Submission to Hack the North 2023
 
